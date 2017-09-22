@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>nZadarma</id>
+    <description>Simple API implementation for https://zadarma.com for .net45</description>
+    <projectUrl>https://github.com/ihtfw/nZadarma</projectUrl>
+    <licenseUrl>https://raw.githubusercontent.com/ihtfw/nZadarma/master/License.txt</licenseUrl>
+    <iconUrl>https://raw.githubusercontent.com/ihtfw/nZadarma/master/resources/icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>zadarma api</tags>
+    <dependencies>
+      <group>
+        <dependency id="Newtonsoft.Json" version="8.0.2" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

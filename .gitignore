@@ -286,3 +286,9 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+
+#Nuget
+NuGetBuild/
+
+#Security
+PrivateConstants.cs
