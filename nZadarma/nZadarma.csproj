@@ -58,8 +58,10 @@
     <Compile Include="Extensions.cs" />
     <Compile Include="Hashes.cs" />
     <Compile Include="Models\Callback.cs" />
+    <Compile Include="Models\RecordRequest.cs" />
     <Compile Include="Models\ResponseObject.cs" />
     <Compile Include="Models\Sip.cs" />
+    <Compile Include="Models\StatisticsPbx.cs" />
     <Compile Include="Models\UserBalance.cs" />
     <Compile Include="Models\UserSips.cs" />
     <Compile Include="ZadarmaApi.cs" />

@@ -1,6 +1,6 @@
 ﻿namespace nZadarma.Models
 {
-    public class Callback : ResponseObject
+    public class Callback 
     {
         public string From { get; set; }
         public string To { get; set; }

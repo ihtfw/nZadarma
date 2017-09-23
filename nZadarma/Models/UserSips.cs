@@ -2,7 +2,7 @@
 
 namespace nZadarma.Models
 {
-    public class UserSips : ResponseObject
+    public class UserSips 
     {
         public int Left { get; set; }
 

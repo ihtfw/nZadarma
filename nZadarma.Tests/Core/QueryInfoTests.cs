@@ -26,9 +26,21 @@ namespace nZadarma.Tests.Core
                 .Add("predicted", true)
                 ;
 
-            var result = sut.Build();
+            var result = sut.Build(true);
             
             Assert.That(result, Is.EqualTo("from=123&predicted=true&to=qwe"));
+        }
+        
+        [Test]
+        public void BuildCallbackParams2()
+        {
+            var sut = new QueryInfo()
+                .Add("version", "2")
+                .Add("format", "json");
+
+            var result = sut.Build(true);
+            
+            Assert.That(result, Is.EqualTo("format=json&version=2"));
         }
     }
 }
