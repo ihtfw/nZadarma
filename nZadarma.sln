@@ -1,13 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.0.0
-MinimumVisualStudioVersion = 10.0.0.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nZadarma", "nZadarma\nZadarma.csproj", "{DA0E7CB3-E730-4D73-9D41-FEAE83B3ADE5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nZadarma.Tests", "nZadarma.Tests\nZadarma.Tests.csproj", "{00960DA3-65C6-44FF-ADA6-45702AA6B851}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuGet", "NuGet\NuGet.csproj", "{3968CC75-B0EF-4AED-A0AE-0464E8CEF33F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +21,11 @@ Global
 		{00960DA3-65C6-44FF-ADA6-45702AA6B851}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00960DA3-65C6-44FF-ADA6-45702AA6B851}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00960DA3-65C6-44FF-ADA6-45702AA6B851}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3968CC75-B0EF-4AED-A0AE-0464E8CEF33F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3968CC75-B0EF-4AED-A0AE-0464E8CEF33F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3968CC75-B0EF-4AED-A0AE-0464E8CEF33F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3968CC75-B0EF-4AED-A0AE-0464E8CEF33F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97A0B368-9441-4832-B4A8-A415DD01F992}
 	EndGlobalSection
 EndGlobal

@@ -1,5 +1,5 @@
 # nZadarma
-[Zadarma](https://zadarma.com/) API for .NET45
+[Zadarma](https://zadarma.com/) API for netstandard2.0
 
 [nZadarma nuget package](https://www.nuget.org/packages/nZadarma/)
 
